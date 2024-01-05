@@ -3,23 +3,23 @@ Web scraping emerges as a vital tool in this context, enabling us to swiftly har
 
 # Steps
 
-Step 1: Fetching Raw HTML Content from the Web
+Step 1: Fetching Raw HTML Content from the Web  
 We’ll be using Python’s inbuilt library urllib and the inbuilt functions urlopen to extract the raw content from the url: https://quotes.toscrape.com/
 
-Step 2: Understanding Regular Expression
-Regular expressions (regex) are powerful tools for text pattern matching and extraction. In the domain of NLP, they play a crucial role in various pre-processing and information retrieval tasks. Here is a brief summary of what they can do:
-Text Cleaning :
+Step 2: Understanding Regular Expression  
+Regular expressions (regex) are powerful tools for text pattern matching and extraction. In the domain of NLP, they play a crucial role in various pre-processing and information retrieval tasks. Here is a brief summary of what they can do:  
+Text Cleaning :  
 Regex can be used to clean up text data, removing unwanted characters, URLs, tags, or any other non-essential elements.
-Phrase Extraction :
+Phrase Extraction :  
 Regex can be used to extract specific phrases or patterns from the text, such as email addresses, phone numbers, or any domain-specific entities.
-Text Replacement :
+Text Replacement :  
 In tasks where certain patterns within the text need to be substituted or normalized, regex provides a robust way to achieve this.
-Tokenization :
+Tokenization :  
 Regex can also be used in defining patterns to split text into words and tokens.
 
-Step 3: Webscraping with BeautifulSoup
+Step 3: Webscraping with BeautifulSoup  
 Our goal is to retrieve all the quotes from a designated quotes website. To achieve this, we require the tags encapsulating the text and their respective class names.
-You can source these details directly from the raw HTML tags via the developer console, or by visualizing the structured HTML in the Jupyter notebook using soup.prettify().
+You can source these details directly from the raw HTML tags via the developer console, or by visualizing the structured HTML in the Jupyter notebook using soup.prettify().  
 
 BeautifulSoup is a Python package that extracts data from HTML (and XML documents) for web scraping. It contains methods for navigating, finding, and changing parsed tree structures, making it simple to extract data from web pages. Working with BeautifulSoup allows developers to focus on the data they need rather than the technical mechanics of HTML parsing.
 
