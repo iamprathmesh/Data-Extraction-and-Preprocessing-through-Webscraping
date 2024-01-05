@@ -23,3 +23,4 @@ You can source these details directly from the raw HTML tags via the developer c
 
 BeautifulSoup is a Python package that extracts data from HTML (and XML documents) for web scraping. It contains methods for navigating, finding, and changing parsed tree structures, making it simple to extract data from web pages. Working with BeautifulSoup allows developers to focus on the data they need rather than the technical mechanics of HTML parsing.
 
+![image](https://github.com/iamprathmesh/Data-Extraction-and-Preprocessing-through-Webscraping/assets/86964450/613e3f96-1b1b-47b5-bf51-9be89ee45132)
