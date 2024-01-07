@@ -17,7 +17,7 @@ In tasks where certain patterns within the text need to be substituted or normal
 Tokenization :  
 Regex can also be used in defining patterns to split text into words and tokens.  
 
-Step 3: Webscraping with BeautifulSoup  
+- Step 3: Webscraping with BeautifulSoup  
 Our goal is to retrieve all the quotes from a designated quotes website. To achieve this, we require the tags encapsulating the text and their respective class names.
 You can source these details directly from the raw HTML tags via the developer console, or by visualizing the structured HTML in the Jupyter notebook using soup.prettify().  
 
