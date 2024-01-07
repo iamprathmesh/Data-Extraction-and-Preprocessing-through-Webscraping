@@ -6,7 +6,7 @@ Web scraping emerges as a vital tool in this context, enabling us to swiftly har
 - Step 1: Fetching Raw HTML Content from the Web  
 We’ll be using Python’s inbuilt library urllib and the inbuilt functions urlopen to extract the raw content from the url: https://quotes.toscrape.com/
 
-Step 2: Understanding Regular Expression  
+- Step 2: Understanding Regular Expression  
 Regular expressions (regex) are powerful tools for text pattern matching and extraction. In the domain of NLP, they play a crucial role in various pre-processing and information retrieval tasks. Here is a brief summary of what they can do:  
 Text Cleaning :  
 Regex can be used to clean up text data, removing unwanted characters, URLs, tags, or any other non-essential elements.  
