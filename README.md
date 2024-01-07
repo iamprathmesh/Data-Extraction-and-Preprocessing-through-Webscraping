@@ -3,7 +3,7 @@ Web scraping emerges as a vital tool in this context, enabling us to swiftly har
 
 # Steps
 
-Step 1: Fetching Raw HTML Content from the Web  
+- Step 1: Fetching Raw HTML Content from the Web  
 We’ll be using Python’s inbuilt library urllib and the inbuilt functions urlopen to extract the raw content from the url: https://quotes.toscrape.com/
 
 Step 2: Understanding Regular Expression  
